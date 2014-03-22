@@ -31,6 +31,7 @@ import zipfile
 import os
 
 # Some global items
+
 # Load Config File - Expected to be in the same dir as the script.
 with open('config.json', 'r') as f:
     config = json.loads(f.read())
@@ -63,7 +64,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print """
             Usage: 
-                /path/to/python2.7 /path/to/run_s3_exporter.py <user_id>
+                /path/to/python2.7 /path/to/run_s3_exporter.py <user_id_from_users_table_id_col>
 
             Description: 
                 This script is intended to export the attachments uploaded to S3 bucket from redmine installations.
