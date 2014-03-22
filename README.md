@@ -5,7 +5,7 @@ S3 attachments exporter for hostedredmine.com
 Usage
 -----
 ```
-/path/to/python2.7 /path/to/run_s3_exporter.py <user_id>
+/path/to/python2.7 /path/to/run_s3_exporter.py <user_id_from_users_table_id_col>
 ```
 
 Description
